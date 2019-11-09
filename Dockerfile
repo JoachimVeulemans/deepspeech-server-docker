@@ -28,4 +28,4 @@ COPY config.json config.json
 
 EXPOSE 8080
 
-CMD ["deepspeech-server --config config.json --model models/output_graph.pbmm --lm models/lm.binary --trie models/trie --alphabet models/alphabet.txt"]
+CMD ["sh", "-c", "/usr/local/bin/deepspeech-server --config config.json"]
