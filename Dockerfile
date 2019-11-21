@@ -35,4 +35,4 @@ COPY . .
 
 EXPOSE 4242
 
-ENTRYPOINT "python3 ./server.py" && /bin/bash
+ENTRYPOINT /usr/bin/python3 /server.py && /bin/bash
