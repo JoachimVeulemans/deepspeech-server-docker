@@ -16,7 +16,7 @@ parser.add_argument(
     type=str,
     nargs="?",
     help="ip of the server, default is localhost",
-    default="localhost",
+    default="0.0.0.0",
 )
 
 parser.add_argument(
