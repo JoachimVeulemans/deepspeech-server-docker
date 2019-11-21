@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run -it -p 8080:8080 deepspeech-server-docker:latest
+docker run -it -p 4242:4242 deepspeech-server-docker:latest bash
