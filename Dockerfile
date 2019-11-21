@@ -34,3 +34,5 @@ RUN tar xvf deepspeech-0.5.1-models.tar.gz -C models --strip-components=1
 COPY . .
 
 EXPOSE 4242
+
+ENTRYPOINT "python3 ./server.py" && /bin/bash
