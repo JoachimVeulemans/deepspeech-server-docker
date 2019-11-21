@@ -33,6 +33,6 @@ RUN tar xvf deepspeech-0.5.1-models.tar.gz -C models --strip-components=1
 
 COPY . .
 
-EXPOSE 4242
+EXPOSE 80
 
 ENTRYPOINT /usr/bin/python3 /server.py && /bin/bash
